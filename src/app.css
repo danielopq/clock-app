@@ -1,0 +1,10 @@
+main{
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 56px 0px 0px 165px;
+    border: solid 1px blue;
+}
