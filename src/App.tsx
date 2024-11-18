@@ -4,7 +4,7 @@ import Clock from "./components/clock/Clock";
 
 function App() {
   return (
-    <main>
+    <main className='dayTimePic'>
       <Quote/>
       <Clock/>
     </main>

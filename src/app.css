@@ -8,3 +8,11 @@ main{
     padding: 56px 0px 0px 165px;
     border: solid 1px blue;
 }
+
+.dayTimePic{
+    background: url('./assets/img/desktop/bg-image-daytime.jpg');  
+}
+
+.nightTimePic{
+    background: url('./assets/img/desktop/bg-image-nighttime.jpg');  
+}
