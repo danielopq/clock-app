@@ -6,13 +6,5 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 56px 0px 0px;
-    border: solid 1px blue;
-}
-
-.dayTimePic{
-    background: url('./assets/img/desktop/bg-image-daytime.jpg');  
-}
-
-.nightTimePic{
-    background: url('./assets/img/desktop/bg-image-nighttime.jpg');  
+    background-color: rgba(0,0,0,0.4);
 }

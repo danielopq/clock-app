@@ -1,0 +1,33 @@
+#moreButton{
+    width: 146px;
+    height: 56px;
+    padding: 0px 9px 0px 21px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 28px;
+    color: rgba(0,0,0,0.5);
+    background-color: white;
+    border:none;
+    font: 700 16px/28px 'Inter-Bold';
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+#moreButton div{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #979797;
+    background-size: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.arrowUp{
+    background-image: url('./img/icon-arrow-up.svg');
+}
+
+.arrowDown{
+    background-image: url('./img/icon-arrow-down.svg');
+}

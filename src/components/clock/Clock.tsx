@@ -1,6 +1,11 @@
 import './clock.css';
+import MoreButton from './moreButton/MoreButton';
 
-const Clock: React.FC = () => {
+interface ClockProps{
+    displayInfo:()=>void;
+}
+
+const Clock: React.FC<ClockProps> = ({displayInfo}) => {
     return (
         <section id="clock">
             <div id="clockGreatings">
@@ -13,10 +18,7 @@ const Clock: React.FC = () => {
             </div>
             <div id="clockLocation">
                 <p>IN LONDON,UK</p>
-                <button id="moreButton">
-                    <p>MORE</p>
-                    <div className='arrowDown'></div>
-                </button>
+                <MoreButton displayInfo={displayInfo}/>
             </div>
         </section>
     )

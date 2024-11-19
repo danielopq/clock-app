@@ -1,8 +1,23 @@
+import { useEffect, useRef } from 'react';
 import './moreInfo.css';
 
-const MoreInfo: React.FC = () => {
+interface MoreInfoProps{
+    visible:boolean;
+}
+
+
+const MoreInfo: React.FC<MoreInfoProps> = ({visible=false}) => {
+
+    const refMoreInfo = useRef<HTMLDivElement>(null);
+
+    useEffect(()=>{
+        if(refMoreInfo.current){
+            visible ? refMoreInfo.current.style.display = 'inline-flex' : refMoreInfo.current.style.display = 'none'
+        }
+        
+    },[visible]);
     return (
-        <section id="moreInfo">
+        <section ref={refMoreInfo} id="moreInfo">
             <div>
                 <div className='moreInfoContainer'>
                     <div>

@@ -1,8 +1,22 @@
+import { useEffect, useRef } from 'react';
 import './quote.css';
 
-const Quote:React.FC = ()=>{
+interface QuoteProps{
+    visible:boolean;
+}
+
+const Quote:React.FC<QuoteProps> = ({visible=true})=>{
+
+    const refQuote = useRef<HTMLDivElement>(null);
+
+    useEffect(()=>{
+        if(refQuote.current){
+            visible ? refQuote.current.style.display = 'flex' : refQuote.current.style.display = 'none';
+        }
+    },[visible]);
+
     return(
-        <section id="quote">
+        <section ref={refQuote} id="quote">
             <div id="quoteSelector">
                 <p id="quoteText">
                 “The science of operations, as derived from mathematics more especially, is a science of itself, and has its own abstract truth and value.”

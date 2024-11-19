@@ -1,11 +1,13 @@
 #quote{
-    width: 573px;
+    width: 1110px;
     height: auto;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    color:white;
 }
 
 #quoteSelector{
-    width: inherit;
+    width: 572px;
     height: auto;
     display: inline-flex;
     justify-content: space-between;
@@ -21,6 +23,7 @@
 #quoteButton{
     width: 17px;
     height: 17px;
+    margin-top: 11px;
     border: none;
     background: transparent url('./img/icon-refresh.svg') center/17px;
     cursor: pointer;
