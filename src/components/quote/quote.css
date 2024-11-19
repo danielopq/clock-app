@@ -1,6 +1,7 @@
 #quote{
     width: 573px;
     height: auto;
+    display: none;
 }
 
 #quoteSelector{
