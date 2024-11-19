@@ -1,6 +1,88 @@
 #clock{
     width: 1110px;
     height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     margin-bottom: 98px;
-    border: solid 1px red;
+    color:white;
+}
+
+#clockGreatings{
+    height: 28px;
+    font: 400 20px/28px 'Inter-Regular';
+    display: inline-flex;
+    letter-spacing: 4px;
+}
+
+#clockIcon{
+    width: 22px;
+    height: inherit;
+    margin-right: 18px;
+}
+
+.dayTimeIcon{
+    background: url('./img/icon-sun.svg') center/22px;
+}
+
+.nigthTimeIcon{
+    background: url('./img/icon-moon.svg') center/22px;
+}
+
+#clockTime{
+
+}
+
+#time{
+    font: 700 200px/200px 'Inter-Bold';
+    letter-spacing: -5px;
+}
+
+#timeZone{
+    font: 300 28px/40px 'Inter-Light';
+    margin-left: 11px;
+}
+
+#clockLocation{
+    width: inherit;
+    display:inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font: 700 24px/28px 'Inter-Bold';
+    letter-spacing: 4.8px;
+}
+
+#moreButton{
+    width: 146px;
+    height: 56px;
+    padding: 0px 9px 0px 21px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 28px;
+    color: rgba(0,0,0,0.5);
+    background-color: white;
+    border:none;
+    font: 700 16px/28px 'Inter-Bold';
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+#moreButton div{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #979797;
+    background-size: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.arrowUp{
+    background-image: url('./img/icon-arrow-up.svg');
+}
+
+.arrowDown{
+    background-image: url('./img/icon-arrow-down.svg');
 }

@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 @font-face {
+	font-family: 'Inter-Light';
+	src: url('./assets/fonts/Inter-Light.woff');
+	font-weight: 300;
+}
+
+@font-face {
 	font-family: 'Inter-Regular';
 	src: url('./assets/fonts/Inter-Regular.woff');
 	font-weight: 400;
