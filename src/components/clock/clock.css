@@ -40,12 +40,12 @@
 
 #time{
     height: inherit;
-    font: 700 200px/239px 'Inter-Bold';
+    font: 700 200px/235px 'Inter-Bold';
     letter-spacing: 7px;
 }
 
 #timeZone{
-    font: 300 40px/30px 'Inter-Light';
+    font: 300 40px/35px 'Inter-Light';
     margin: 0px 0px 0px 11px;
 }
 
