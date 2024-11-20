@@ -4,9 +4,13 @@ import Clock from "./components/clock/Clock";
 import MoreInfo from './components/moreInfo/MoreInfo';
 import { useState } from 'react';
 
-function App() {
-  
 
+/**
+ * Main application component that controls the visibility 
+ * of different sections: Quote, Clock, and MoreInfo.
+ * @returns {JSX.Element} - The main application element.
+ */
+function App() {
   interface DisplayedInfo{
       quoteDisplayed:boolean,
       moreInfoDisplayed:boolean,
