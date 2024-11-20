@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: column;
     color:white;
+    margin-top: 56px;
 }
 
 #quoteSelector{
     width: 572px;
     height: auto;
+    margin-top: 75px;
     display: inline-flex;
     justify-content: space-between;
     margin-bottom: 13px;

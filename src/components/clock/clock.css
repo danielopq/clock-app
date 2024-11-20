@@ -9,7 +9,6 @@
     color:white;
 }
 
-
 #clockGreatings{
     height: 28px;
     display: inline-flex;
@@ -57,4 +56,45 @@
     justify-content: space-between;
     font: 700 24px/28px 'Inter-Bold';
     letter-spacing: 4.8px;
+}
+
+/*############################## TABLET VERSION ##############################*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #clock{
+        width: 499px;
+        margin-bottom: 64px;
+    }
+    
+    #clockIcon{
+        margin-right: 16px;
+    }
+
+    #clockTime{
+        height: 175px;
+    }
+    
+    #time{
+        font: 700 175px/175px 'Inter-Bold';
+    }
+    
+    #timeZone{
+        font: 300 32px/28px 'Inter-Light';
+    }
+    
+    #clockLocation{
+        width: inherit;
+        margin-top: 10px;
+        display:inline-flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        font: 700 24px/28px 'Inter-Bold';
+        letter-spacing: 4.8px;
+    }
+}
+
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:767px) {
+
 }
