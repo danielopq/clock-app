@@ -17,18 +17,27 @@
 #quoteText{
     width: 540px;
     height: auto;
-    font: 400 19px/28px 'Inter-Regular';
+    font: 400 19.2px/28px 'Inter-Regular';
 }
 
 #quoteButton{
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
     margin-top: 11px;
     border: none;
-    background: transparent url('./img/icon-refresh.svg') center/17px;
+    background: transparent url('./img/icon-refresh.svg') center/18px;
     cursor: pointer;
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
 }
 
+@media(hover:hover){
+    #quoteButton:hover{
+        opacity: 1; 
+    }
+}
+
+
 #author{
-    font: 700 18px/28px 'Inter-Bold';
+    font: 700 18.5px/28px 'Inter-Bold';
 }

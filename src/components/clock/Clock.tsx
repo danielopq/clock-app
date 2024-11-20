@@ -10,14 +10,14 @@ const Clock: React.FC<ClockProps> = ({displayInfo}) => {
         <section id="clock">
             <div id="clockGreatings">
                 <div id="clockIcon" className='dayTimeIcon'></div>
-                <p id="greatings">GOOG MORNIG, IT'S CURRENTLY</p>
+                <p id="greatings">GOOD MORNING, IT'S CURRENTLY</p>
             </div>
             <div id="clockTime">
-                <span id="time">11:37</span>
-                <span id="timeZone">BST</span>
+                <p id="time">11:37</p>
+                <p id="timeZone">BST</p>
             </div>
             <div id="clockLocation">
-                <p>IN LONDON,UK</p>
+                <p>IN LONDON, UK</p>
                 <MoreButton displayInfo={displayInfo}/>
             </div>
         </section>

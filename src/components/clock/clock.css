@@ -1,11 +1,11 @@
 #clock{
     width: 1110px;
-    height: 288px;
+    height: auto;
     margin-bottom: 98px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     color:white;
 }
 
@@ -13,7 +13,7 @@
 #clockGreatings{
     height: 28px;
     display: inline-flex;
-    font: 400 20px/28px 'Inter-Regular';
+    font: 400 20px/33px 'Inter-Regular';
     letter-spacing: 4px;
 }
 
@@ -31,18 +31,27 @@
     background: url('./img/icon-moon.svg') center/22px;
 }
 
+#clockTime{
+    width: auto;
+    height: 194px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+
 #time{
-    font: 700 200px/200px 'Inter-Bold';
-    letter-spacing: -5px;
+    height: inherit;
+    font: 700 200px/239px 'Inter-Bold';
+    letter-spacing: 7px;
 }
 
 #timeZone{
-    font: 300 28px/40px 'Inter-Light';
-    margin-left: 11px;
+    font: 300 40px/30px 'Inter-Light';
+    margin: 0px 0px 0px 11px;
 }
 
 #clockLocation{
     width: inherit;
+    margin-top: 10px;
     display:inline-flex;
     align-items: flex-end;
     justify-content: space-between;
