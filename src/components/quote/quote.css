@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     color:white;
-    margin-top: 56px;
 }
 
 #quoteSelector{
@@ -38,7 +37,6 @@
     }
 }
 
-
 #author{
     font: 700 18.5px/28px 'Inter-Bold';
 }
@@ -62,5 +60,30 @@
 /*############################## MOBILE VERSION ##############################*/
 
 @media screen and (max-width:767px) {
+    #quote{
+        width: 324px;
+        margin-top:31px;
+    }
+    #quoteSelector{
+        width: 324px;
+        height: auto;
+        margin-top: 75px;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 13px;
+    }
 
+    #quoteText{
+        width: 290px;
+        font: 400 12px/22px 'Inter-Regular';
+    }
+
+    #quoteButton{
+        margin-top: 0px;
+    }
+
+    #author{
+        margin:0px;
+        font: 700 12px/22px 'Inter-Bold';
+    }
 }
