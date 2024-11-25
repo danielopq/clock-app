@@ -10,7 +10,7 @@ const Clock: React.FC<ClockProps> = ({displayInfo}) => {
         <section id="clock">
             <div id="clockGreatings">
                 <div id="clockIcon" className='dayTimeIcon'></div>
-                <p id="greatings">GOOD MORNING, IT'S CURRENTLY</p>
+                <p id="greatings">GOOD MORNING<span id="currently">, IT'S CURRENTLY</span></p>
             </div>
             <div id="clockTime">
                 <p id="time">11:37</p>

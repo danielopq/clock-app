@@ -30,8 +30,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-position: top;
+    justify-content:center;
+    background-position: center;
     background-size: 1440px;
     background-repeat: no-repeat;
 }
@@ -53,6 +53,10 @@ p{
 
 @media (min-width: 768px) and (max-width: 1024px) {
     body{
+        width: 100vw;
+        height: 100vh;
+        justify-content:flex-start;
+        background-position: top;
         background-size: 100vw;
     }
 
@@ -69,6 +73,10 @@ p{
 
 @media screen and (max-width:767px) {
     body{
+        width: 100vw;
+        height: 100vh;
+        justify-content:flex-start;
+        background-position: top;
         background-size: 100vw;
     }
 

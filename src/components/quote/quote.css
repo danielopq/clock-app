@@ -9,7 +9,6 @@
 #quoteSelector{
     width: 572px;
     height: auto;
-    margin-top: 75px;
     display: inline-flex;
     justify-content: space-between;
     margin-bottom: 13px;
@@ -62,12 +61,11 @@
 @media screen and (max-width:767px) {
     #quote{
         width: 324px;
-        margin-top:31px;
     }
+
     #quoteSelector{
         width: 324px;
         height: auto;
-        margin-top: 75px;
         display: inline-flex;
         justify-content: space-between;
         margin-bottom: 13px;

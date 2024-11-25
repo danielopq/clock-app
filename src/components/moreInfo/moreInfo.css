@@ -100,4 +100,45 @@
 
 /*############################## MOBILE VERSION ##############################*/
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+    #moreInfo{
+        height: 256px;
+    }
+
+    #moreInfo > div{
+        width: 323px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .moreInfoContainer{
+        width: 100%;
+        height: 72px;
+        
+    }
+    
+    .moreInfoContainer > div{
+        height: 28px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .moreInfoHeader{
+        font: 400 10px/28px 'Inter-Regular';
+        letter-spacing: 2px;
+        margin-bottom: 0px;
+    }
+    
+    .moreInfoText{
+        height: 28px;
+        font: 700 20px/28px 'Inter-Bold';
+    }
+    
+    #moreInfoSeparator{
+        display: none;
+    }
+}

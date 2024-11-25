@@ -43,4 +43,20 @@
 
 /*############################## MOBILE VERSION ##############################*/
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+    #moreButton{
+        width: 115px;
+        height: 39px;
+        padding: 0px 4px 0px 17px;
+        border-radius: 20px;
+        font: 700 14px/12px 'Inter-Bold';
+        letter-spacing: 3.75px;
+    }
+    
+    #moreButton div{
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        background-size: 10px;
+    }
+}
