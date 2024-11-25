@@ -40,3 +40,7 @@
 .arrowDown{
     background-image: url('./img/icon-arrow-down.svg');
 }
+
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:767px) {}

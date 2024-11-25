@@ -62,7 +62,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     #clock{
-        width: 499px;
+        width: 573px;;
         margin-bottom: 64px;
     }
     
@@ -83,13 +83,17 @@
     }
     
     #clockLocation{
-        width: inherit;
-        margin-top: 10px;
-        display:inline-flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        font: 700 24px/28px 'Inter-Bold';
-        letter-spacing: 4.8px;
+        margin-top: 0px;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font: 700 18px/28px 'Inter-Bold';
+        letter-spacing: 3.6px;
+    }
+
+    #clockLocation button{
+        margin-top: 80px;
     }
 }
 

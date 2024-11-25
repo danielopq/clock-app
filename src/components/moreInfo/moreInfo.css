@@ -61,3 +61,75 @@
     margin-right: 94px;
     background-color: rgba(48,48,48,0.25);
 }
+
+/*############################## TABLET VERSION ##############################*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #moreInfo{
+        width: inherit;
+        height: 400px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        color: #303030;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+    
+    #moreInfo::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        filter: blur(40.77px);
+        z-index: -1;
+        background: rgba(255, 255, 255, 0.75);
+    }
+    
+    #moreInfo > div{
+        width: 1110px;
+        height: 252px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .moreInfoContainer{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .moreInfoContainer > div{
+        height: 105px;
+    }
+    
+    .moreInfoHeader{
+        font: 400 15px/28px 'Inter-Regular';
+        letter-spacing: 3px;
+        margin-bottom: 9px;
+    }
+    
+    .moreInfoText{
+        height: 68px;
+        font: 700 56px/68px 'Inter-Bold';
+    }
+    
+    #moreInfoSeparator{
+        width: 3px;
+        height: inherit;
+        margin-right: 94px;
+        background-color: rgba(48,48,48,0.25);
+    }
+}
+
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:767px) {}

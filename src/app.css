@@ -13,7 +13,7 @@ main{
 
 @media (min-width: 768px) and (max-width: 1024px) {
     main{
-        width: 768x;
+        width: 100vw;
         height: 1024px;
         padding: 80px 0px 0px;
     }

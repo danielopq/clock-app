@@ -49,9 +49,13 @@
     #quote{
         width: 573px;
     }
-    
-    #quoteSelector{
-        width: 540px;
+
+    #quoteText{
+        font: 400 18px/28px 'Inter-Regular';
+    }
+
+    #quoteButton{
+        margin-top: 13px;
     }
 }
 
