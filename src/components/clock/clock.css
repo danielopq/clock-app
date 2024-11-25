@@ -71,7 +71,7 @@
     }
 
     #clockTime{
-        height: 175px;
+        height: 155px;
     }
     
     #time{
@@ -83,7 +83,7 @@
     }
     
     #clockLocation{
-        margin-top: 0px;
+        margin-top: 20px;
         display:flex;
         flex-direction: column;
         align-items: flex-start;
