@@ -68,5 +68,15 @@ p{
 /*############################## MOBILE VERSION ##############################*/
 
 @media screen and (max-width:767px) {
+    body{
+        background-size: 100vw;
+    }
 
+    .dayTimePic{
+        background-image: url('./assets/img/mobile/bg-image-daytime.jpg');  
+    }
+    
+    .nightTimePic{
+        background-image: url('./assets/img/mobile/bg-image-nighttime.jpg');  
+    }
 }
