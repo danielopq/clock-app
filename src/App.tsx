@@ -1,5 +1,5 @@
 import './app.css';
-import Quote from "./components/quote/Quote";
+import QuoteGenerator from './components/quote/QuoteGenerator';
 import Clock from "./components/clock/Clock";
 import MoreInfo from './components/moreInfo/MoreInfo';
 import { useState } from 'react';
@@ -35,7 +35,7 @@ function App() {
 
   return (
     <main>
-      <Quote visible={quoteDisplayed}/>
+      <QuoteGenerator visible={quoteDisplayed}/>
       <Clock displayInfo={displayInfo}/>
       <MoreInfo visible={moreInfoDisplayed}/>
     </main>
