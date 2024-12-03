@@ -20,10 +20,10 @@ For the development, I used React and TypeScript, leveraging their powerful feat
 
 ### Screenshots
 
-- [Day time without info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/dayNoInfo.jpg)
-- [Day time with info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/dayInfo.jpg)
-- [Night time without info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/nightNoInfo.jpg)
-- [Night time with info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/nightInfo.jpg)
+- [Day time without info - desktop version](https://github.com/danielopq/clock-app/blob/main/screenshots/dayNoInfo.jpg)
+- [Day time with info - desktop version](https://github.com/danielopq/clock-app/blob/main/screenshots/dayInfo.jpg)
+- [Night time without info - desktop version](https://github.com/danielopq/clock-app/blob/main/screenshots/nightNoInfo.jpg)
+- [Night time with info - desktop version](https://github.com/danielopq/clock-app/blob/main/screenshots/nightInfo.jpg)
 
 
 ### Links
