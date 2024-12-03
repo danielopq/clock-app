@@ -20,14 +20,17 @@
     width: 22px;
     height: inherit;
     margin-right: 18px;
+    background-position: center;
+    background-size: 22px;
+    background-repeat: no-repeat;
 }
 
 .dayTimeIcon{
-    background: url('./img/icon-sun.svg') center/22px;
+    background-image: url('./img/icon-sun.svg');
 }
 
 .nigthTimeIcon{
-    background: url('./img/icon-moon.svg') center/22px;
+    background-image: url('./img/icon-moon.svg');
 }
 
 #clockTime{

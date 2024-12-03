@@ -10,30 +10,25 @@
 
 ## Overview
 
-This project is a three-section coffee website with a clean and simple, yet attractive design. The site provides information about the company and its various coffee varieties, while also allowing customers to customize a regular delivery plan according to their tastes and needs. The entire website has been developed using React and TypeScript, ensuring a modern, maintainable, and efficient codebase.
-Key Features:
+This app connects with multiple RESTful APIs, including worldtimeapi.org, api.ipgeolocation.io, and zenquotes.io, to retrieve and display various types of information. One of its features allows users to obtain a random quote from a famous person by simply clicking a button. Additionally, the app provides detailed location-based data such as the user's location, time zone, local time, day of the week, and more.
 
-  - Customizable Delivery Plans: One of the standout features of the website is the "Create Your Plan" section. This section allows users to design a personalized coffee subscription by selecting different options for coffee types, grind preferences, quantity, and delivery frequency. The interface includes an intuitive step-by-step process with multiple choice options, an interactive index, and an order summary that visually guides users through the customization process, making it easy and engaging.
+A notable functionality is the ability to fetch local sunrise and sunset times, which the app uses to determine whether it is currently day or night at the user's location. Based on this information, it dynamically adjusts the icons and background theme to visually represent the time of day, enhancing the user experience.
 
-  - Responsive Design: The website has been fully optimized for different devices, with distinct layouts for desktop, laptop, and mobile versions. This ensures a seamless user experience across all screen sizes.
+The application is fully responsive, ensuring seamless usability across various devices, including desktops, tablets, and mobile phones. This adaptability is achieved through responsive design principles.
 
-  - Modern Tech Stack: Built with React for the front-end and TypeScript for type safety and code quality, the website demonstrates best practices in modern web development, including component-based architecture and state management.
-
-The result is a user-friendly and visually appealing site that makes exploring coffee options and setting up personalized delivery plans simple and enjoyable.     
+For the development, I used React and TypeScript, leveraging their powerful features to build a robust, scalable, and type-safe application. 
 
 ### Screenshots
 
-- [Home - desktop version](https://github.com/danielopq/Coffeeroasters/blob/main/screeshots/home-desktop.png)
-- [Home - tablet version](https://github.com/danielopq/Coffeeroasters/blob/main/screeshots/home-tablet.png)
-- [Home - mobile version](https://github.com/danielopq/Coffeeroasters/blob/main/screeshots/home-mobile.png)
+- [Day time without info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/dayNoInfo.jpg)
+- [Day time with info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/dayInfo.jpg)
+- [Night time without info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/nightNoInfo.jpg)
+- [Night time with info - desktop version](https://github.com/danielopq/clock-app/blob/main/screeshots/nightInfo.jpg)
 
-- [Create your plan - desktop version](https://github.com/danielopq/Coffeeroasters/blob/main/screeshots/create_your_plan-desktop.png)
-- [Create your plan - tablet version](https://github.com/danielopq/Coffeeroasters/blob/main/screeshots/create_your_plan-mobile.png)
-- [Create your plan - mobile version](https://github.com/danielopq/Coffeeroasters/blob/main/screeshots/create_your_plan-tablet.png)
 
 ### Links
 
-- Live Site URL: [https://danielmartinez-coffeeroasters.netlify.app]
+- Live Site URL: [https://danielmartinez-clock-app.netlify.app]
 
 ## My process
 
@@ -57,6 +52,7 @@ Key aspects of the process included:
 - TypeScript
 - React
 - Vite
+- RESTfil APIs
 
 ## Author
 
