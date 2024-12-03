@@ -52,7 +52,7 @@ Key aspects of the process included:
 - TypeScript
 - React
 - Vite
-- RESTfil APIs
+- RESTful APIs
 
 ## Author
 

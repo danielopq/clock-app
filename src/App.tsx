@@ -1,5 +1,5 @@
 import './app.css';
-import QuoteGenerator from './components/quote/QuoteGenerator';
+import Quote from './components/quote/Quote';
 import Clock from "./components/clock/Clock";
 import MoreInfo from './components/moreInfo/MoreInfo';
 import { useEffect, useState } from 'react';
@@ -91,19 +91,12 @@ function App() {
   }, []);
 
   return (
-<<<<<<< HEAD
-    <main>
-      <QuoteGenerator visible={quoteDisplayed}/>
-      <Clock displayInfo={displayInfo}/>
-      <MoreInfo visible={moreInfoDisplayed}/>
-=======
     <main className={isDay ? 'dayTimePic' : 'nightTimePic'}>
       <div>
         <Quote visible={quoteDisplayed} />
         <Clock displayInfo={displayInfo} isDay={isDay} localTime={localTime} abbreviation={abbreviation} location={location} />
         <MoreInfo visible={moreInfoDisplayed} timeZone={timeZone} dayOfYear={dayOfYear} dayOfweek={dayOfweek} weekNumber={weekNumber} />
       </div>
->>>>>>> ffce0b5
     </main>
   )
 }
